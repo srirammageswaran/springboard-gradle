@@ -1,0 +1,10 @@
+maintainer       "Sriram Mageswaran"
+maintainer_email "sriram.mageswaran@wipro.com"
+license          "MIT"
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          "1.0.0"
+name		 "springboard-gradle" 
+description      "Installs Gradle"
+recipe           "gradle::tarball","installs gradle from tarball"
+depends		 "java"
+depends		 "ark"
